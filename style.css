@@ -1,0 +1,247 @@
+body,h1,h2,h3,h4,h5,h6,p,span,{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* Header-section */
+.john-header .navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.john-header span {
+    color: #fff;
+    background: #79ace6;
+    display: inline-block;
+    height: 52px;
+    width: 44px;
+    text-align: center;
+    font-size: 31px;
+    border-radius: 10px;
+    position: relative;
+    top: 4px;
+}
+
+.john-menu .nav-link {
+    padding-left: 35px !important;
+    padding-right: 20px !important;
+    font-size: 18px;
+}
+
+/* Slider section */
+
+.slider-section{
+    background:url(https://i.ibb.co/ggW70Z5/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.slider-section h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.slider-section h2 {
+    font-size: 47px;
+    font-weight: 601;
+    margin-bottom: 50px;
+}
+
+.slider-section .btn {
+    background: rgb(31, 175, 43);
+    padding: 11px;
+    font-size: 17px;
+    font-weight: 511;
+}
+
+.slider-section .form-control {
+    padding: 12px 84px;
+}
+
+/* Counter section */
+
+.counter-caption .h1 {
+    font-size: 57px;
+    font-weight: 501;
+}
+
+
+/* About-section */
+
+.about-section{
+    background: #f7f9ff;
+}
+
+.about-text-left{
+    margin-top: 30px;
+}
+.about-text-left .lead {
+    font-size: 23px;
+    line-height: 2.5rem;
+}
+
+/* Feature section */
+
+.feature-section{
+
+}
+.feature-itme{
+    height: 200px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(133, 136, 148, 0.1);
+}
+
+.left-img-section {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.left-text-section {
+    width: 60%;
+    padding: 20px;
+}
+.left-img-section img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    right: 21px;
+    border-radius: 5px;
+}
+
+/* Fortfolio css */
+
+.fortfolio-section{
+    background:#f7f9ff;
+}
+
+.portfolio-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, 0.1 );
+
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(98, 120, 223,.7) ;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Pricing-table css */
+.main-section-bg{
+    background: #f7f9ff;
+}
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(133, 136, 148, 0.3);
+    border-radius: 10px;
+
+
+}
+.pricing-item h2{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.pricing-item ul li {
+    margin-top: 19px;
+    font-size: 19px;
+    margin-bottom: 21px;
+    color: #777;
+}
+.pricing-item ul li span{}
+
+
+.pricing-item ul li span {
+    color: #79ace6;
+    font-size: 22px;
+    width: 38px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.pricing-item .text-muted {
+    margin-bottom: 29px;
+    margin-top: 29px;
+}
+
+.btn.btn-outline-info.btn-lg {
+    border-width: 2px;
+    padding: 7px 10px;
+}
+
+/* testimonial-Section */
+
+.aouthor-info {
+    width: 200px;
+    margin: auto;
+}
+
+.aouthor-info img {
+    width: 91px;
+    margin-right: 21px;
+}
+.user-bio {
+    text-align: left;
+    position: relative;
+    top: 15px;
+}
+
+/* Footer about section */
+
+.footer-about-item {
+    margin-top: 80px;
+}
+.footer-about-item .card{}
+.footer-about-item .card img {
+    width: 120px;
+    margin-top: -42px;
+    margin-left: 6px;
+    height: auto;
+}
+
+/* Contuct form css */
+
+.contuct-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(133, 136, 148, 0.3);
+    padding: 40px;
+}
+
+.contuct-form-div .card .card-body h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
